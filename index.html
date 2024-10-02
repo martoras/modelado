@@ -86,13 +86,13 @@
         <a-asset-item id="spinosaurus" src="modelado.glb" response-type="arraybuffer"></a-asset-item>
       </a-assets>
       
-      <a-camera position="1 1 -1"></a-camera>
+      <a-camera position="1 0.5 -2"></a-camera>
       
       <!-- Environment for 2D and VR viewing. It's auto-hidden in AR mode. -->
       <a-entity environment="preset: forest; lighting: none; shadow: none; lightPosition: 0 2.15 0"
                 hide-in-ar-mode></a-entity>
       
-      <a-entity id="dino" position="-1 -0.79 -3" scale="0.5 0.5 0.5">
+      <a-entity id="dino" position="-1 -1.09 -3" scale="0.5 0.5 0.5">
         <a-entity position="4 2.15 0" rotation="0 20 0"
                   gltf-model="#spinosaurus"
                   animation-mixer
